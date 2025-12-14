@@ -1,0 +1,56 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/node_modules/html2canvas/dist/html2canvas.js [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.resolve().then(() => {
+        return parentImport("[project]/node_modules/html2canvas/dist/html2canvas.js [app-client] (ecmascript)");
+    });
+});
+}),
+"[project]/node_modules/dompurify/dist/purify.es.mjs [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_dompurify_dist_purify_es_mjs_61e0c95e._.js",
+  "static/chunks/node_modules_dompurify_dist_purify_es_mjs_0a2109f9._.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/dompurify/dist/purify.es.mjs [app-client] (ecmascript)");
+    });
+});
+}),
+"[project]/node_modules/canvg/lib/index.es.js [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_69103133._.js",
+  "static/chunks/node_modules_canvg_lib_index_es_0a2109f9.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/canvg/lib/index.es.js [app-client] (ecmascript)");
+    });
+});
+}),
+"[project]/node_modules/next/dist/compiled/react-dom/client.js [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.resolve().then(() => {
+        return parentImport("[project]/node_modules/next/dist/compiled/react-dom/client.js [app-client] (ecmascript)");
+    });
+});
+}),
+"[project]/components/invoice-template.tsx [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.resolve().then(() => {
+        return parentImport("[project]/components/invoice-template.tsx [app-client] (ecmascript)");
+    });
+});
+}),
+"[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.resolve().then(() => {
+        return parentImport("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+    });
+});
+}),
+]);
